@@ -44,7 +44,7 @@ A new flutter plugin project.
     'xml2',
     'c++',
   ]
-
+#   'Classes/Frameworks/WeixinLib/libWeChatSDK.a',
   
   s.vendored_frameworks = [
   'Classes/Frameworks/AdHubSDK.framework',
@@ -53,7 +53,6 @@ A new flutter plugin project.
   ]
   s.vendored_libraries = [
   'Classes/Frameworks/libAdCompViewSDK.a',
-  'Classes/Frameworks/WeixinLib/libWeChatSDK.a',
   'Classes/Frameworks/GDTLib/libGDTMobSDK.a',
   ]
   s.resource = [
